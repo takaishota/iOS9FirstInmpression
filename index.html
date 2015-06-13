@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>iOS9 First Impression</title>
+
+		<meta name="description" content="iOS9 and Xcode7 introduction after WWDC2015">
+		<meta name="author" content="Shota Takai">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>iOS9 first Impression</h1>
+					<h3>Just After WWDC2015</h3>
+					<p>
+						<small>Reported by Shota Takai</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>WWDC2015がありました</h2>
+					<p>
+						iOS9, MacOS X 10.11, watchOS2などが発表されました。
+					</p>
+					<p>
+						iOS9のbeta版をiPadにインストールしたので興味ある方は触ってみてください！
+					</p>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+				<section>
+						<h2>iOS 9</h2>
+						<img src="./images/ios9.jpg" style="border-style:none;">
+					</section>
+					<section>
+						<h2>MultiTasking</h2>
+						<p>1画面にウインドウを2画面表示できるようになりました。</p>
+						<img src="./images/multitasking.jpg">
+					</section>
+					<section>
+						<h2>Split View</h2>
+						<p>同時に操作することもできます。</p>
+						<img src="./images/multitasking.gif">
+					</section>
+					<section>
+						<h2>MultiTasking</h2>
+						<p>
+							開発アイデア
+						</p>
+						<ul>
+							<li>1:1, 2:1に分割されたときの最適な画面設計は？</li>
+							<li>メインのアプリの補助アプリみたいアプリ</li>
+							<li>マルチウインドウで2人で対戦できるゲーム（アプリ間のデータ共有がリアルタイムにできれば、、）</li>
+						</ul>
+					</section>
+					<section>
+						<h2>MultiTasking</h2>
+						<ul>
+							<li>
+								Split ViewはiPad Air 2のみサポート
+							</li>
+							<li>
+								Slide OverはiPad Air、Air 2、Mini 2、 Mini 3でサポート
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>その他気になった機能</h2>
+					</section>
+					<section>
+						<h2>two-finger swipe</h2>
+						<p>テキスト選択が便利になりました。</p>
+						<img src="./images/keyboard_swiping.png" style="border-style:none;">
+					</section>
+					<section>
+						<h2>メモアプリ</h2>
+						<p>
+							機能が追加されていました
+							<ul>
+								<li>手書き機能、リスト追加機能</li>
+								<li>画像のペースト</li>
+							</ul>
+							など
+						</p>
+						
+						<img src="./images/memo.jpg" style="border-style:none;">
+					</section>
+					<section>
+						<h2>siri</h2>
+						<p>デザインがかっこよくなりました</p>
+						<img src="./images/siri.jpg" style="border-style:none;">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>watch OS 2</h2>
+						<img src="./images/watchos2.jpg" style="border-style:none;">
+					</section>
+					<section>
+						<h2>コンプリケーションのカスタマイズ</h2>
+						<p>App Storeにあるアプリケーションからのデータもコンプリケーション（時計表示？）として表示できるようになる</p>
+						<img src="./images/applewatch-complication.png" style="border-style:none;">
+					</section>
+					<section>
+						<h2>ネイティブアプリ</h2>
+						<p>iPhoneが担当していた処理をApple Watch側で処理</p>
+						<img src="./images/applewatch-native.jpg" style="border-style:none;">
+					</section>
+					<section>
+						<h2>タイムトラベル</h2>
+						<p>Digital Crownを回して、過去、未来のニュースやスケジュールを確認できる</p>
+						<img src="./images/applewatch-native-time-travel.png" style="border-style:none;">
+					</section>
+					<section>
+						<h2>その他の機能追加</h2>
+						<ul>
+							<li>加速度センサー、心拍センサー、スピーカー、マイク、デジタルクラウンへのアクセスが可能に</li>
+							<li>HealthKit、HomeKitとの連携</li>
+							<li>メール返信、siriの機能強化</li>
+							<li>アクティベーションロック（iCloud Apple IDアカウントでロック）</li>	
+
+						</ul>
+						
+					</section>
+				</section>
+
+				<section>
+					<h2>Apple Developer Program</h2>
+					<p>
+						今まで3つあったDeveloper Progarmが1つに
+					</p>
+					<img src="./images/license.png" style="border-style:none;">
+				</section>
+				<section>
+					<h2>その他の話題</h2>
+					<ul>
+						<li>Swift 2.0の発表、OSS化</li>
+						<li>PassbookがWalletに名称変更、Apple Payの機能強化</li>
+						<li>Apple Musicの発表</li>
+					</ul>
+						<img width="128" height="128" src="./images/swift.png" style="border-style:none;float:left;margin-top:50px;margin-left:150px;">
+						<img width="229" height="128" src="./images/pay.jpg" style="border-style:none;float:left;margin-top:50px;margin-left:50px;">
+						<img width="226" height="128" src="./images/apple-music.jpg" style="border-style:none;float:left;margin-top:50px;margin-left:50px;">
+					</p>
+				</section>
+				<section>
+					<h2>リリース</h2>
+					<p>秋にリリースされるそうです</p>
+						<img width="450" height="253" src="./images/ios9_fall.jpg" style="border-style:none;float:left;">
+						<img width="450" height="253" src="./images/watchOS2_fall.jpg" style="border-style:none;float:right;">
+					</p>
+				</section>
+				<section>
+					<h1>END</h1>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
